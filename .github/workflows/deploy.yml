@@ -27,4 +27,4 @@ jobs:
 
       - name: Deploy to Netlify
         run: |
-          curl -s https://api.netlify.com/build_hooks/YOUR_NETLIFY_BUILD_HOOK_URL
+          curl -s https://api.netlify.com/build_hooks/67308ad5e3f3377c7ee4a33f
