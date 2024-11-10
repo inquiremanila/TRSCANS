@@ -1,3 +1,3 @@
 # TRSCANS
 
-Translated Scans Manhua/Novel
+Translated Scans Manhua/Novel 
