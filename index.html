@@ -1,27 +1,98 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Story Aggregator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <div class="logo">Your Logo</div>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Genre</a></li>
-                <li><a href="#">Search</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Welcome to Story Aggregator</h1>
-        <p>Your one-stop hub for all stories and comics.</p>
-    </main>
-</body>
-</html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+     
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" type="text/css" rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    
+    <link href="https://cdn.jsdelivr.net/gh/easy-meta/amsta@main/eflag/base.css?v53" type="text/css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/gh/easy-meta/amsta@main/eflag/twtr.css?v53" type="text/css" rel="stylesheet" media="print" onload="this.media='all'"/>
+    <link href="https://cdn.jsdelivr.net/gh/easy-meta/amsta@main/emojis/twtr.css?v53" type="text/css" rel="stylesheet" media="print" onload="this.media='all'"/>
+      <title>BATOTO - Read Manga Online</title>
+  <meta name="description" content="A manga reader for manga fans."/>
+  <meta name="keywords" content="manga, scanlation, translation"/>
+    
+  </head>
+
+  <body class="body body-home">
+
+    <div id="app" class="wrapper wrapper-home">
+      <header id="header" class="header">
+  <div class="container-fluid container-max-width-xl">
+    <div class="w-100 d-flex flex-column flex-md-row align-items-center">
+
+      
+      <div class="brand">
+        <a href="/">
+          <img src="/amsta/img/btoto/logo-batoto.png?v0" height="40" alt="Translated Scans">
+          
+          
+        </a>
+        <a href="/v3x" class="position-absolute text-danger text-nowrap" style="right: 0; bottom: -12px; font-weight: bold;">
+          <small>v3x→</small>
+        </a>
+      </div>
+      
+
+                          
+      <nav class="mt-3 mt-md-0 ms-md-3 nav">
+        <a class="nav-link active" href="/">Home</a>
+        <a class="nav-link" href="/latest?langs=en">Latest</a>
+        <a class="nav-link" href="/browse?langs=en">Browse</a>
+        <a class="nav-link" href="/search">Search</a>
+      </nav>
+
+      
+      <form class="d-none d-lg-inline ms-auto me-3 form-inline search" method="GET" action="/search">
+        <input class="form-control" type="search" name="word" autocomplete="off" placeholder="Search">
+        <a class="d-inline-flex align-content-center align-items-center icon-random" href="/random">
+          <i class="fas fa-fw fa-random"></i>
+        </a>
+        <button class="btn btn-primary" type="submit">
+          <i class="fas fa-fw fa-search"></i>
+        </button>
+      </form>
+      
+
+      
+      <div class="mt-3 mt-md-0 ms-md-auto d-flex align-items-center user">
+
+                  
+                                    <a class="ms-2" href="/my-history-by-device">
+            <i class="fas fa-fw fa-lg fa-history"></i>
+          </a>
+        
+        
+        
+        
+        <a class="ms-2 d-lg-none" href="/random">
+          <i class="fas fa-fw fa-lg fa-random"></i>
+        </a>
+
+                  <a class="ms-2" href="/publish">
+            <i class="fas fa-fw fa-lg fa-upload"></i>
+          </a>
+                          <a class="ms-2" href="/discord">
+            <i class="fab fa-fw fa-lg fa-discord"></i>
+          </a>
+        
+        
+
+        <a class="ms-2" href="/settings">
+                      <i class="fas fa-fw fa-lg fa-cog"></i>
+                  </a>
+        
+                  <a class="ms-2 avatar guest" href="/signin">
+            <i class="fas fa-fw fa-2x fa-user-circle"></i>
+          </a>
+                
+      </div>
+      
+
+    </div>
+    
+
+  </div>
+  
+</header>      <div id="mainer" class="mainer">
